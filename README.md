@@ -17,4 +17,4 @@ Funcao 2:
 ![equation](https://latex.codecogs.com/gif.latex?%5Cint_%7B-%5Cpi%7D%5E%7B0%7D%20%5Csin%28x%29%20dx)
 Video:
 
-[![Watch the video](https://img.youtube.com/vi/mswnkHxKpao/maxresdefault.jpg)](https://youtu.be/mswnkHxKpao)git 
+[![Watch the video](https://img.youtube.com/vi/mswnkHxKpao/maxresdefault.jpg)](https://youtu.be/mswnkHxKpao)
