@@ -59,6 +59,17 @@ class PontosCriticos(Scene):
         q = Square(color= WHITE, fill_opacity = 0.5)
         q.move_to([1,0,0],aligned_edge=LEFT)
         self.add(q)
-        
 
+from manim.utils.unit import Percent
 
+class UsandoUnidades(Scene):
+    def construct(self):
+        for porcentagem in range(1,100,5):
+            # circulo = Circle(radius=porcentagem * Percent(X_AXIS))
+            # circulo.move_to([porcentagem/10,0,0])
+            # self.add(circulo)
+            circulo_branco = Circle(radius = porcentagem * Percent(Y_AXIS), color= WHITE) #X_AXIS e Y_AXIS são constantes, é possível usar qualquer outro número
+            self.play(Create(circulo_branco))
+            circulo_cinza = Circle(radius = (porcentagem * Percent(X_AXIS)), color= GRAY)
+            self.play(Create(circulo_cinza))
+            
